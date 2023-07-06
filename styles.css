@@ -1,0 +1,171 @@
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat";
+}
+
+
+#inicio,
+#sobreMi {
+    background: linear-gradient(rgb(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.container header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.containerHeader {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.containerHeader h1 {
+    text-align: center;
+    color: rgb(213, 55, 55);
+}
+
+.containerHeader nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.containerHeader nav ul li a {
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.redes a {
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.redes a:hover {
+    color: rgb(213, 55, 55);
+    transform: scale(1.1);
+}
+
+
+.presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.presentacion h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.presentacion h2 span {
+    font-size: 30px;
+    color: rgb(213, 55, 55);
+}
+
+.descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.presentacion a {
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.presentacion a:hover {
+    background-color: rgb(213, 55, 55);
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+
+#botonContador {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(213, 55, 55);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: 300ms;
+}
+
+#botonContador:hover {
+    padding: 12px 22px;
+    font-size: 18px;
+}
+
+
+.containerSobreMi {
+    max-width: 1100px;
+    height: 80vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h2 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    & p {
+        max-width: 700px;
+        margin: 25px auto;
+        font-size: 18px;
+        text-align: center;
+
+        & span{
+            font-size: 24px;
+    color: rgb(213, 55, 55);
+        }
+    }
+}
