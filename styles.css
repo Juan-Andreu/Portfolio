@@ -164,8 +164,17 @@
         text-align: center;
 
         & span{
-            font-size: 24px;
-    color: rgb(213, 55, 55);
+            font-size: 20px;
+            color: rgb(213, 55, 55);
+        }
+    }
+
+    .objetive{
+        font-size: 16px;
+
+        & span{
+            font-size: 18px;
+            color: rgb(213, 55, 55);
         }
     }
 }
