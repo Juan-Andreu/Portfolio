@@ -1,6 +1,5 @@
 function alerta(){
-    alert("Esta seccion esta indefinida :)")
-    console.log(alerta)
+    alert("Esta seccion esta indefinida :)");
 }
 
 let button = document.getElementById("botonContador");

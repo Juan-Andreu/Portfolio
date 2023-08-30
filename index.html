@@ -8,61 +8,115 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>J.A || Desarrollador Web Full-Stack.</title>
 </head>
 
 <body>
-
-    <section id="inicio">
-        <div class="container">
-            <header>
-                <div class="containerHeader">
-                    <h1>
-                        /JA/
-                    </h1>
-                    <nav id="nav" class="">
-                        <ul id="links">
-                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                            <li><a href="sobreMi.html">SOBRE MI</a></li>
-                            <li><a href="#portafolio" onclick="alerta()">PORTAFOLIO</a></li>
-                            <li><a href="#contacto" onclick="alerta()">CONTACTO</a></li>
-                        </ul>
-                    </nav>
-
-                    <!-- Iconos del menu responsive -->
-                    <div id="icono-nav">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <!-- Iconos de las redes -->
-                    <div class="redes">
-                        <a href="https://www.instagram.com/juanandreu0/" target="_blank"><i
-                                class="fa-brands fa-square-instagram"></i></a>
-                        <a href="https://www.facebook.com/juanbautista.andreu" target="_blank"><i
-                                class="fa-brands fa-facebook"></i></a>
-                        <a href="https://github.com/Juan-Andreu" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-                    </div>
+    <header>
+        <div class="containerHeader">
+            <h1>
+                JA
+            </h1>
+            <nav id="nav" class="">
+                <!-- Iconos del menu responsive -->
+                <div id="icono-nav">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-            </header>
-            <main>
+                <!-- Iconos de las redes -->
+                <div class="redes">
+                    <a href="https://www.instagram.com/juanandreu0/" target="_blank"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/juanbautista.andreu" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Juan-Andreu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </nav>
+        </div>
 
+    </header>
+    <main>
+
+        <section>
             <div class="presentacion">
                 <p class="bienvenida">Bienvenidos</p>
                 <h2>Soy <span>Juan Andreu</span>, Full Stack Developer.</h2>
                 <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi consectetur
-                    voluptatibus accusamus rem dicta? Obcaecati earum culpa dolore quidem quas et? Eveniet, numquam nemo
+                    voluptatibus accusamus rem dicta? Obcaecati earum culpa dolore quidem quas et? Eveniet, numquam
+                    nemo
                     hic
                     sequi aspernatur incidunt optio vel!</p>
-                <a href="#portafolio">Ir a Portafolio</a>
-                <button id="botonContador">Haz clic aquí</button>
+                <a href="#portfolio">Ir a Portafolio</a>
+                <!-- <button id="botonContador">Haz clic aquí</button> -->
             </div>
+        </section>
 
-        </main>
-        </div>
-    </section>
+        <section class="sobreMi">
+            <h2>Sobre Mi</h2>
+            <p>¡Hola! <span>Muchas gracias por estar aquí</span>.</p>
+            <p class="objetive">Mi <span>objetivo principal</span> es seguir mejorando mis habilidades y expandir
+                los conocimientos en las tecnologías vistas. Disfruto enfrentando nuevos desafíos y resolviendo
+                problemas
+                de manera creativa y en equipo. Estoy constantemente en busqueda de oportunidades para aprender
+                y crecer en este campo que esta en constante evolución.</p>
+            <p>Si estás buscando a alguien con responsabilidad, habilidades técnicas y una actitud
+                positiva hacia el aprendizaje, ¡soy la persona adecuada! Estoy emocionado por las
+                oportunidades que el futuro me prepara y estoy listo para nuevos desafíos en el mundo
+                del desarrollo web.</p>
 
-    <script type="text/javascript" src="/script.js"></script>
+            <a href="#contacto" class="btn-contact">Contactar</a>
+        </section>
+
+        <section class="technologies-section">
+            <h2>Mis Tecnologías</h2>
+            <ul class="technologies-list">
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-html5"></i></span>
+                    HTML5
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-css3-alt"></i></span>
+                    CSS3
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-sass"></i></span>
+                    Sass
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-bootstrap"></i></span>
+                    Bootstrap
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-js"></i></span>
+                    JavaScript
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-node-js"></i></span>
+                    Node.js
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fas fa-database"></i></span>
+                    MongoDB
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-git"></i></span>
+                    Git
+                </li>
+                <li class="technology-item">
+                    <span class="technology-icon"><i class="fab fa-github"></i></span>
+                    GitHub
+                </li>
+            </ul>
+        </section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section id="portfolio">
+
+        </section>
+    </main>
+
+    <script type="text/javascript" src="./JS/script.js"></script>
+    <script type="text/javascript" src="./JS/scrollAnimation.js"></script>
 </body>
 
 </html>
